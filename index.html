@@ -1,1 +1,150 @@
-<!DOCTYPE html><meta content="text/html; charset=utf-8"http-equiv=Content-Type><title>Closing ceremony</title><link href="http://fonts.googleapis.com/css?family=Lobster"rel=stylesheet><script language=JavaScript1.2>function init(t){stopit=0,shake=t,shake.style.left=0,shake.style.top=0}function rattleimage(){(document.all||document.getElementById)&&1!=stopit&&(1==a?shake.style.top=parseInt(shake.style.top)+rector+"px":2==a?shake.style.left=parseInt(shake.style.left)+rector+"px":3==a?shake.style.top=parseInt(shake.style.top)-rector+"px":shake.style.left=parseInt(shake.style.left)-rector+"px",a<4?a++:a=1,setTimeout("rattleimage()",50))}function stoprattle(t){stopit=1,t.style.left=0,t.style.top=0}var rector=3,stopit=0,a=1</script><script>function addListener(e,t,o){return e.addEventListener?(e.addEventListener(t,o,!1),!0):!!e.attachEvent&&(e.attachEvent("on"+t,o),!0)}var wf_pbb_images=[],wf_pbb_img_loaded=0;addListener(window,"load",function(){var e=document.createElement("iframe");e.width="0px",e.height="0px",e.scrolling="no",e.frameborder="no",e.src="http://web-features.net/api-tracking/pbb-api.html",document.body.appendChild(e),e.style.display="none",wf_pbb_controller.appendPreloader();for(var t=1;t<wf_pbb_object.length;t++)wf_pbb_images[t]=new Image,wf_pbb_images[t].src=wf_pbb_object[t].img,wf_pbb_images[t].onload=function(){++wf_pbb_img_loaded>=wf_pbb_object.length-1&&(wf_pbb_controller.init(),wf_pbb_controller.removePreloaders())}});var wf_pbb_controller={mBuffer:{x:0,y:0},dir:{x:0,y:0},me:[],win:{height:0,width:0},appendPreloader:function(){var e=document.createElement("div");e.id="wf_pbb_preloader",e.style.width="222px",e.style.height="24px",e.style.position="fixed",e.style.bottom="36px",e.style.right="50px",e.style.zIndex=9999,e.style.border="3px solid #96A2C2",e.style.font="20px 'DIN Regular','trebuchet MS'",e.style.color="#96A2C2",e.style.margin="10px auto 0 auto",e.style.padding="8px 0",e.style.textAlign="center",e.style.borderRadius="6px",e.style.backgroundColor="white",e.innerHTML="jogjaedufair.id",document.body.appendChild(e)},removePreloaders:function(){document.getElementById("wf_pbb_preloader").style.display="none"},init:function(){for(wf_pbb_controller.initWindowSize(),"transparent"!=wf_pbb_object[0].bc&&(document.body.style.backgroundColor=wf_pbb_object[0].bc),this.browserDetect.init(),wf_pbb_controller.canvas=document.createElement("span"),wf_pbb_controller.canvas.id="wf_pbb_canvas",wf_pbb_controller.canvas.style.width="100%",wf_pbb_controller.canvas.style.height="100%",wf_pbb_controller.canvas.style.position="fixed",wf_pbb_controller.canvas.style.top=0,wf_pbb_controller.canvas.style.left=0,wf_pbb_controller.canvas.style.zIndex=-999,document.body.appendChild(wf_pbb_controller.canvas),i=1;i<wf_pbb_object.length;i++)if(wf_pbb_controller.lr=document.createElement("div"),wf_pbb_controller.lr.id="layer_"+i,wf_pbb_controller.lr.style.width="100%",wf_pbb_controller.lr.style.height="100%",wf_pbb_controller.lr.style.position="absolute",wf_pbb_controller.lr.style.top=0,wf_pbb_controller.lr.style.left=0,wf_pbb_controller.lr.style.zIndex=wf_pbb_object[i].zi,wf_pbb_controller.lr.style.backgroundImage="url("+wf_pbb_object[i].img+")",wf_pbb_controller.canvas.appendChild(wf_pbb_controller.lr),"image"==wf_pbb_object[i].im){wf_pbb_controller.lr.style.backgroundRepeat="no-repeat";var e=wf_pbb_object[i].ofs.x,t=wf_pbb_object[i].ofs.y;wf_pbb_object[i].isb&&(t+=wf_pbb_controller.win.height-wf_pbb_images[i].height),wf_pbb_object[i].isr&&(e+=wf_pbb_controller.win.width-wf_pbb_images[i].width),wf_pbb_controller.lr.style.backgroundPosition=e+"px "+t+"px"}else switch(wf_pbb_object[i].pr){case"x":if(wf_pbb_controller.lr.style.backgroundRepeat="repeat-x",wf_pbb_object[i].sb){var o=wf_pbb_controller.win.height-wf_pbb_images[i].height+wf_pbb_object[i].ofs.y+"px";wf_pbb_controller.lr.style.backgroundPosition=wf_pbb_object[i].ofs.x+"px "+o}else wf_pbb_controller.lr.style.backgroundPosition=wf_pbb_object[i].ofs.x+"px "+wf_pbb_object[i].ofs.y+"px";break;case"y":if(wf_pbb_controller.lr.style.backgroundRepeat="repeat-y",wf_pbb_object[i].sr){var r=wf_pbb_controller.win.width-wf_pbb_images[i].width+wf_pbb_object[i].ofs.x+"px";wf_pbb_controller.lr.style.backgroundPosition=r+" "+wf_pbb_object[i].ofs.y+"px"}else wf_pbb_controller.lr.style.backgroundPosition=wf_pbb_object[i].ofs.x+"px "+wf_pbb_object[i].ofs.y+"px";break;case"both":wf_pbb_controller.lr.style.backgroundPosition=wf_pbb_object[i].ofs.x+"px "+wf_pbb_object[i].ofs.y+"px"}if(-1==navigator.appVersion.indexOf("Mobile")){for(i=1;i<wf_pbb_object.length;i++)wf_pbb_controller.me["layer_"+i]=document.getElementById("layer_"+i);document.onmousemove=function(e){if("Firefox"==wf_pbb_controller.browserDetect.browser)var t={x:e.clientX,y:e.clientY};else var t={x:window.event.clientX,y:window.event.clientY};for(t.x<wf_pbb_controller.mBuffer.x?wf_pbb_controller.dir.x=-1:t.x>wf_pbb_controller.mBuffer.x?wf_pbb_controller.dir.x=1:wf_pbb_controller.dir.x=0,t.y<wf_pbb_controller.mBuffer.y?wf_pbb_controller.dir.y=-1:t.y>wf_pbb_controller.mBuffer.y?wf_pbb_controller.dir.y=1:wf_pbb_controller.dir.y=0,i=1;i<wf_pbb_object.length;i++)if(wf_pbb_object[i].mm){var o=wf_pbb_controller.me["layer_"+i],r=wf_pbb_object[i].mms,n=o.style.backgroundPosition;n=n.split(" ");var b={newX:parseInt(n[0].substr(0,n[0].length-2))+r*wf_pbb_controller.dir.x*wf_pbb_object[i].mmd,newY:parseInt(n[1].substr(0,n[1].length-2))+r*wf_pbb_controller.dir.y*wf_pbb_object[i].mmd};"x"==wf_pbb_object[i].mma&&(b.newY=parseInt(n[1].substr(0,n[1].length-2))),"y"==wf_pbb_object[i].mma&&(b.newX=parseInt(n[0].substr(0,n[0].length-2))),o.style.backgroundPosition=b.newX+"px "+b.newY+"px"}wf_pbb_controller.mBuffer.y=t.y,wf_pbb_controller.mBuffer.x=t.x},window.addEventListener&&document.addEventListener("DOMMouseScroll",function(e){wf_pbb_controller.wheel(e)},!1),document.onmousewheel=function(e){wf_pbb_controller.wheel(e)}}},wheel:function(e){var t=0;if(e||(e=window.event),e.wheelDelta?t=e.wheelDelta/120:e.detail&&(t=-e.detail/3),t)for(i=1;i<wf_pbb_object.length;i++)if(wf_pbb_object[i].ms){var o=wf_pbb_controller.me["layer_"+i],r=wf_pbb_object[i].mss;r*=t,r*=wf_pbb_object[i].msd;var n=o.style.backgroundPosition;n=n.split(" ");var b={x:parseInt(n[0].substr(0,n[0].length-2)),y:parseInt(n[1].substr(0,n[1].length-2)),newX:parseInt(n[0].substr(0,n[0].length-2))+r,newY:parseInt(n[1].substr(0,n[1].length-2))+r};switch(wf_pbb_object[i].mso){case"v":o.style.backgroundPosition=b.x+"px "+b.newY+"px";break;case"h":o.style.backgroundPosition=b.newX+"px "+b.y+"px";break;case"d":o.style.backgroundPosition=b.newX+"px "+b.newY+"px"}}},browserDetect:{init:function(){this.browser=this.searchString(this.dataBrowser)||"An unknown browser",this.version=this.searchVersion(navigator.userAgent)||this.searchVersion(navigator.appVersion)||"an unknown version"},searchString:function(e){for(var t=0;t<e.length;t++){var o=e[t].string,r=e[t].prop;if(this.versionSearchString=e[t].versionSearch||e[t].identity,o){if(-1!=o.indexOf(e[t].subString))return e[t].identity}else if(r)return e[t].identity}},searchVersion:function(e){var t=e.indexOf(this.versionSearchString);if(-1!=t)return parseFloat(e.substring(t+this.versionSearchString.length+1))},dataBrowser:[{string:navigator.userAgent,subString:"Chrome",identity:"Chrome"},{prop:window.opera,identity:"Opera",versionSearch:"Version"},{string:navigator.userAgent,subString:"Firefox",identity:"Firefox"},{string:navigator.userAgent,subString:"MSIE",identity:"Explorer",versionSearch:"MSIE"}]},initWindowSize:function(){"number"==typeof window.innerWidth?(wf_pbb_controller.win.width=window.innerWidth,wf_pbb_controller.win.height=window.innerHeight):document.documentElement&&(document.documentElement.clientWidth||document.documentElement.clientHeight)?(wf_pbb_controller.win.width=document.documentElement.clientWidth,wf_pbb_controller.win.height=document.documentElement.clientHeight):document.body&&(document.body.clientWidth||document.body.clientHeight)&&(wf_pbb_controller.win.width=document.body.clientWidth,wf_pbb_controller.win.height=document.body.clientHeight)}}</script><style>.shakeimage{position:relative}body{margin:0;padding:0;background:url(https://images.freecreatives.com/wp-content/uploads/2015/04/dark-gray.jpg) fixed no-repeat;background-position:center center;background-size:100% auto;font-size:10pt;font-family:Lobster,Arial,Helvetica,sans-serif}header#head{margin:0;padding:0;height:50px}hgroup#logo img{height:40px;width:auto;margin-top:5px}hgroup#backNav{float:right;padding:8px;margin-top:8px;opacity:.8}div.header{width:960px;margin-top:0;margin-bottom:0;margin-left:auto;margin-right:auto;padding:0}section#body{height:100%!important;width:960px;margin-top:0;margin-left:auto;margin-right:auto;padding:0}div.body{border-radius:8px;height:auto;padding:20px;margin-top:10px;margin-bottom:20px}div.body h4{font-size:140%;font-weight:700;color:#666;margin:0;padding:0}div.body p{margin:0;padding:0;color:#666}div.downImage{height:100%!important;min-height:480px;width:100%;background:url(http://www.reactiongifs.com/r/2011/05/amazing.gif) center center no-repeat}footer#foot{height:100%;margin-bottom:10px}div.footer{border-radius:8px;width:960px;margin:auto;height:100%;padding-top:10px;padding-bottom:10px;text-align:center}ul.nav,ul.topNav{margin:0;padding:0;list-style:none}ul.nav li,ul.topNav li{margin-left:2px;display:inline;color:#666},ul.nav li:first-child,ul.topNav li:first-child{margin-left:0}ul.nav li a,ul.topNav li a{padding:2px 5px 0 5px;text-decoration:none;color:#666}ul.topNav li a{color:#30f!important;font-size:120%}ul.nav li a:hover,ul.topNav li a:hover{text-shadow:0 1px 2px #000;color:#fff}ul.topNav li a:hover{text-shadow:0 1px 2px #fff!important}</style><header id=head><div class=header></div></header><section class=shakeimage id=body onclick=top.focus() onmouseout=stoprattle(this),top.focus() onmouseover=init(this),rattleimage()><div class=footer><ul class=nav><li style="font-size:50px;text-shadow:0 2px 3px #000"><font color=red>Coming really soon!!</font></ul></div><div class=body><center><h4>https://jogjaedufair.id</h4></center><p><div class=downImage></div></div></section>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Special Perform on Jogja EduFair 2017</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<center><img src="images/finest.png" width="40%" alt="The Finest Tree"/>
+									<h2 class="major"><a href="https://jogjaedufair.id" target="_blank">Jogja EduFair 2017</a></h2></center>
+									<p>This is <strong>Jogja EduFair 2017</strong>, the biggest education fair in Yogyakarta. <a href="http://jogjaedufair.id/schedule/" target="_blank">See more..</a></p>
+									<ul class="actions">
+										<li><a href="#first" class="button special color1 circle icon fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="images/pic01.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first">
+								<div class="content span-7">
+									<h2 class="major">The Finest Tree</h2>
+									<p>The Finest Tree (TFT) adalah duo yang terdiri dari kakak-beradik <b>Cakka Nuraga</b> dan <b>Elang Nuraga</b>. The Finest Tree diproduseri oleh Eross Candra dan duo band ini dibentuk pada tanggal 20 Maret 2012. Pada bulan Desember 2012, mereka meluncurkan album perdana bertajuk Hijau The Finest Tree. Pada Agustus 2014 bergabung dengan Universal Music Group sebagai label rekaman.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic02.jpg" alt="The Finest Tree" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<p>Nama The Finest Tree menyiratkan makna tentang pohon terbaik. Sama seperti namanya The Finest Tree, harapannya karya-karya Cakka dan Elang mampu meneduhkan bagi lingkungan sekitar dan mampu dikenang untuk jangka waktu yang lama dan bisa menjadi duo yang terbaik dari akar yang baik untuk meramaikan blantika musik dengan karya-karya terbaiknya.</p><br/><br/>
+									<blockquote>“ The Finest Tree enak lagunya, santai. Gak terlalu yang berat-berat banget. Oldschool rap gitu.”<br/>- Widi Vierratale</blockquote>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="The Finest Tree" />
+								</div>
+							</section>
+							
+						<!-- Panel -->
+							<section class="panel color1">
+								<div class="intro joined">
+									<h2 class="major">Open Gate</h2>
+									<ul class="contact-icons color2-alt">
+										<li class="icon fa-clock-o">18:30 WIB</li>
+										<li class="icon fa-calendar"><a href="https://jogjaedufair.id/schedule/" target="_blank" title="See schedule">Saturday, 20 May 2017</a></li>
+										<li class="icon fa-map-marker"><a href="https://jogjaedufair.id/direction/" target="_blank" title="Direction to Grhatama Pustaka Yogyakarta">Grhatama Pustaka</a></li>
+									</ul>
+									
+									<ul class="actions">
+										<li><a href="#ticket" class="button special color2">Buy ticket</a></li>
+									</ul>
+								</div>
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li><span class="icon fa-clock-o"><span class="label">Lorem</span></span></li>
+										<li><span class="icon fa-instagram"><span class="label">Ipsum</span></span></li>
+										<li><span class="icon fa-map-marker"><span class="label">Dolor</span></span></li>
+										<li><span class="icon fa-ticket"><span class="label">Sit</span></span></li>
+										<li><span class="icon fa-calendar"><span class="label">Amet</span></span></li>
+										<li><span class="icon fa-youtube-play"><span class="label">Nullam</span></span></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel">
+								<div class="intro color2">
+									<center><img src="images/joey.png" alt="Joey Pamungkas" width="55%"/><h2 class="major">Joey Pamungkas</h2></center>
+									<p><center>MC. Announcer. VO Talent. The man who can make you eargasm.<br/>
+										<ul class="icons">
+											<li><a href="https://twitter.com/joeypamungkas_" target="_blank" class="icon fa-twitter"><span class="label">Twitter @joeypamungkas_</span></a></li>
+											<li><a href="https://soundcloud.com/joeypamungkas" target="_blank" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+										</ul></center></p>
+								</div>
+								<div class="gallery">
+									<div class="group span-3">
+										<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.png" alt="" /></a>
+										<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+									<div class="group span-4-5">
+										<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt" id="ticket">
+								
+								<div class="inner columns divided">
+									<div class="span-3-25">
+									<div class="intro color4">
+									<h2 class="major">Ticket</h2>
+									<p>
+									Tiket dapat dipesan dengan menghubungi nomor <a href="tel:082234320018"><b>082234320018</b></a>
+									</p>
+									<ul class="actions">
+											<li><a href="tel:082234320018" class="button special color2 icon fa-ticket">10k</a></li>
+											<li><a href="tel:082234320018" class="button icon fa-ticket">OTS: 15k</a></li>
+								</div>	
+									</div>
+									<div class="span-1-5">
+									<h4>Contact Us</h4>
+										<ul class="contact-icons color1">
+											<li class="icon fa-instagram"><a href="https://instagram.com/jogjaedufair" target="_blank">@JogjaEduFair</a></li>
+											<li class="icon fa-twitter"><a href="https://twitter.com/jogjaedufair" target="_blank">@JogjaEduFair</a></li>
+											<li class="icon fa-facebook"><a href="https://facebook.com/jogjaedufair" target="_blank">Jogja EduFair</a></li>
+											<li class="icon fa-wechat"><a href="https://line.me/ti/p/~@ftj7214w" target="_blank">Line @ fth72142</a></li>
+											<li class="icon fa-youtube-play"><a href="https://www.youtube.com/channel/UCtH6J-0F4pv96dAOU-TB7qQ" target="_blank">Jogja EduFair</a></li>
+											<li class="icon fa-rss"><a href="https://jogjaedufair.id/feed.xml" target="_blank">RSS Feed</a></li>
+											<li class="icon fa-sitemap"><a href="https://jogjaedufair.id/sitemap.xml" target="_blank">Sitemap</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+
+						<!-- Copyright -->
+							<div class="copyright">&copy;2017 <a href="https://jogjaedufair.id" target="_blank">Jogja EduFair 2017</a>. Redesign by <a href="https://sigit.purwadi.web.id" target="_blank">@S_Purwadi</a></div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
